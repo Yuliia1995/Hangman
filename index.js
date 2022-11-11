@@ -1,10 +1,10 @@
 const categories = {
     bus: {
         name: "Words from BUS 101 and 102",
-        words: ["leverage", "stipulate", "resilient", "constrain", "ubiquitous", "commodity", "reciprocal", "liability", "surreptitious"]},
+        words: ["leverage", "stipulate", "resilient", "constrain", "ubiquitous", "commodity", "reciprocal", "liability", "surreptitious", "accomodate", "org chart", "emulate"]},
         cis: {
             name: "Words from BUS 101 and 102",
-            words: ["array", "object", "exponentiation", "operator", "condition", "function"]
+            words: ["array", "object", "exponentiation", "operator", "condition", "function", "argument", "responsive design", "scope", "block of code", "parameter", "programming"]
         }
     };
 const youWon = "<p>You Won! SLAVA UKRAINI!</p>";
