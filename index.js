@@ -161,8 +161,8 @@ for (let btn of catBtn) {
             {
                 guessBox.innerHTML = youWon;
                 guessBox.classList = "win";
-                //let gallows = document.getElementById('hangmanImage')
-                //gallows.src = "/img/ukrainewon.png"
+                let gallows = document.getElementById('hangmanImage')
+                gallows.src = "img/ukrainewon.png"
                 
             }
             else if( game.isLost() )
