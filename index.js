@@ -159,10 +159,12 @@ for (let btn of catBtn) {
             let guessBox = document.getElementById('guessBox');
             if( game.isWon() )
             {
+                let gallows = document.getElementById('gallows')
+                gallows.style.cssText = "background-image: url('img/ukrainewon.jpeg'); background-size:contain; background-repeat:none;"
+                let hangman = document.getElementById("hangmanImage")
+                hangman.style.display = "none";
                 guessBox.innerHTML = youWon;
                 guessBox.classList = "win";
-                let gallows = document.getElementById('hangmanImage')
-                gallows.src = "img/ukrainewon.png"
                 
             }
             else if( game.isLost() )
