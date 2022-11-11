@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Ukraine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" 
+          href="https://mitchum.blog/wp-content/uploads/2019/05/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <main>
+      <h1>Help Ukraine Word Game</h1>
+      <div id="btn-container">
+        <h3>Choose the category of the word bank to begin the game:</h3>
+        <button class="catBtn button" value="bus">BUS 101 and 102</button>
+        <button class="catBtn button" value="cis">CIS 301 and 302</button>
+      </div>
+      <article id="game-container" class="d-none">
+        <div id="gallows">
+            <img src="/img/hangman.png" style="width:80%;height: auto;" alt="" id="hangmanImage">
+          </div>
+          <div id="word"></div>
+          <br>
+          <div id="controls">
+            <div id="guessBox"></div>
+            <button id="newGameButton" class="button" onclick="newGame();">New Game</button>
+            <br>
+            <br>
+          </div>
+          <br>
+          <div id="guesses"></div>
+      </article>
+      
+    </main>   
+   <script src="index.js"></script>
+  </body>
+</html>
+</body>
+</html>
